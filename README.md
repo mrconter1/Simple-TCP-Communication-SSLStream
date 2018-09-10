@@ -5,8 +5,8 @@ This is a simple example of a TCP server and client both wrapped with a SSLStrea
 
 **Guide to set up:**
 1. Create two executable projects using the code found in "SslClient.cs" and "SslServer.cs".
-2. The SslServer needs a certification file. You can either use the one found on this repository or you can create your own. 
-3. Place the certification file in the same folder as the SslServer executable before starting the server. After the server is running, start the client.
+2. The SSLServer needs a certification file. You can either use the one found on this repository or you can create your own. 
+3. Place the certification file in the same folder as the SSLServer executable before starting the server. After the server is running, start the client.
 
 **Guide to creating your own self-signed certificate on Windows:**
 1. Find the "makecert.exe" and "pvk2pfx.exe" files by navigating to "C:\Program Files (x86)\Windows Kits\8.0\bin\x64". *If you cannot find the folder you need to install the "Microsoft Windows SDK" found [Here](https://www.microsoft.com/en-us/download/details.aspx?id=8279).*
