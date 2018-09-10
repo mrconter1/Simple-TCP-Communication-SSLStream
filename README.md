@@ -1,6 +1,6 @@
 # Simple-TCP-Communication-SSLStream-C#
 
-This is a simple example of a TCP server and client both wrapped with a SSLStream with a self-signed certificate. Companies usually buy a certified certificates but this can be unnecessarily for small projects. If you use a self-signed certificate instead as in this case you will only be left with the encryption part of SSLStream. By using the native C# SSLStream library you don't need to implement your own network encryption method with, say, RSA + AES.
+This is a simple example of a TCP server and client both wrapped with a SSLStream with a self-signed certificate. Companies usually buy a certified certificates but this can be unnecessarily for small projects. If you use a self-signed certificate instead as in this case you will only be left with the encryption part of SSLStream. By using the native C# SSLStream library you don't need to implement your own network encryption method with, say, RSA + AES. Although you won't get the authorization part of SSL, the stream will still be encrypted.
 - The code is written in C#.
 
 **Guide to set up:**
