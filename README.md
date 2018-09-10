@@ -4,7 +4,7 @@ This is a simple example of a TCP server and client both wrapped with a SSLStrea
 - The code is written in C#.
 
 **Guide to set up:**
-1. Create two executable projects using the code found in "SslClient.cs" and "SslServer.cs".
+1. Create two executable projects using the code found in "SSLClient.cs" and "SSLServer.cs".
 2. The SSLServer needs a certification file. You can either use the one found on this repository or you can create your own. 
 3. Place the certification file in the same folder as the SSLServer executable before starting the server. After the server is running, start the client.
 
